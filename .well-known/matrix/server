@@ -1,3 +1,3 @@
 {
-    "m.server": "https://matrix.0xportal.dev"
+    "m.server": "matrix.0xportal.dev:443"
 }
