@@ -19,4 +19,4 @@ jobs:
     - name: Upload the Docker image
       run: |
              echo ${{ secrets.GITHUB_TOKEN }} | docker login ghcr.io --username 0xportal --password-stdin
-             docker push ghcr.io/0xportal/todo:latest
+             docker push ghcr.io/0xportal/website:latest
