@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>0xPortal</title>
+
+    <link rel="stylesheet" href="/src/css/index.min.css">
+    <script src="/src/js/index.js"></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/98.css">
+
+    <link href="https://tech.lgbt/@0xPortal" rel="me">
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="window-wrapper main-window-wrapper">
+            <div class="window main-windows">
+
+                <div class="title-bar">
+                    <div id="title-bar" class="title-bar-text">Home | 0xPortal</div>
+                    <div class="title-bar-controls">
+                        <button aria-label="Help" />
+                        <button aria-label="Close" />
+                    </div>
+                </div>
+
+                <div class="window-body">
+                    <menu role="tablist">
+                        <li id="tablist-home" role="tab" aria-selected="true"><a onclick="changeTab('home')">Home</a></li>
+                        <li id="tablist-projects" role="tab"><a onclick="changeTab('projects')">Projects</a></li>
+                        <li id="tablist-blog" role="tab"><a onclick="changeTab('blog')">Blog</a></li>
+                        <li id="tablist-contact" role="tab"><a onclick="changeTab('contact')">Contact</a></li>
+                        <li id="tablist-about" role="tab"><a onclick="changeTab('about')">About</a></li>
+                    </menu>
+
+                    <div class="window" role="tabpanel">
+                        <div class="window-body">
+
+                            <div id="content-home">
+                                <p>This is a netsite on the interweb.</p>
+                                <br>
+                                <p>It is currently under construction.</p>
+                            </div>
+
+                            <div id="content-projects" class="hidden">
+                                <p>I do not exist, therefore I have not made anything.</p>
+                            </div>
+                            
+                            <div id="content-blog" class="hidden">
+                                <p>Creating blog posts requires a brain, therefore I have no blog posts.</p>
+                            </div>
+                            
+                            <div id="content-contact" class="hidden">
+                                <p>Use a ouija board or something, idk.</p>
+                            </div>
+
+                            <div id="content-about" class="hidden">
+                                <p>My name is Null, and I do not exist.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
