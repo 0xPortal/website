@@ -1,3 +1,13 @@
+function closeMainWindow() {
+
+    // remove window
+    const windows = document.getElementsByClassName("window-wrapper")
+
+    while (windows.length > 0) {
+        windows[0].parentNode.removeChild(windows[0])
+    }
+}
+
 function changeTab(newTab) {
 
     // remove 'selected' aria attribute from all tabs

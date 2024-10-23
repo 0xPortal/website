@@ -38,6 +38,7 @@
     width: 35vw;
     height: min-content;
 
+    .title-bar-controls button,
     li[role="tab"] a {
         cursor: pointer;
     }
